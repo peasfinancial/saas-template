@@ -7,6 +7,7 @@ export const getCognitoUser = /* GraphQL */ `
     getCognitoUser {
       id
       username
+      __typename
     }
   }
 `;
