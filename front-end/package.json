@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "codegen": "amplify codegen && ts-node --skip-project scripts/cleanup-graphql-autogen.ts"
+    "codegen": "amplify codegen --skip-project scripts/cleanup-graphql-autogen.ts"
   },
   "dependencies": {
     "@apollo/client": "^3.5.6",

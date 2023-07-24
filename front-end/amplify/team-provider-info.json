@@ -10,6 +10,17 @@
       "StackName": "amplify-peascoupleweb-dev-222741",
       "StackId": "arn:aws:cloudformation:us-west-2:415516509333:stack/amplify-peascoupleweb-dev-222741/0d1401b0-29d2-11ee-b153-02bfc0ac8687",
       "AmplifyAppId": "d1q01t4bo0fbdw"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1q01t4bo0fbdw",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "peascoupleweb460f750e": {}
+      }
     }
   }
 }

@@ -6,7 +6,7 @@ import Amplify, { Auth } from 'aws-amplify';
 import { createAppSyncClient } from '../appsync/AppSyncClient';
 import amplifyConfig from '../deployment/amplify-config';
 
-Amplify.configure(amplifyConfig);
+// Amplify.configure(amplifyConfig);
 
 function App({ Component, pageProps, router }: AppProps) {
   const validateUserSession = async () => {
